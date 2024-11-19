@@ -16,11 +16,11 @@
 <p>Most of the errors are alt text errors and when looking at the code you can see why. Currently the alt text doesn't describe what the image is. A simpler alt text for example like "Carrots and Beets" would make much more sense </p>
 <img width="416" alt="Code for alt text" src="https://github.com/user-attachments/assets/1a8ebd76-0203-4b59-9be2-18653ac64d3b">
 <p> There are also a few empty headers as well, which seems very unnescessary.
-![empty h3](<Screenshot 2024-11-16 at 9.56.12 PM.png>)
+<img width="400" alt="Screenshot 2024-11-16 at 9 56 12 PM" src="https://github.com/user-attachments/assets/58f67af6-4802-4019-a883-341b655d1884">
 <p>Unfortunately, there were a few contast issues where the background and text were not visible, for example here where the button is a light green and white text. Had they followed the same colour screen as next to it there would be less issues.
-![Screenshot of contrast issue](<Screenshot 2024-11-16 at 10.03.06 PM.png>)
+<img width="997" alt="Screenshot 2024-11-16 at 10 03 06 PM" src="https://github.com/user-attachments/assets/eefa71e8-a7e2-45cd-ba79-42d8354079e9">
 <p>The lighthouse report unfortunately was not great as well, with the speed being affected likely due to the excess of unused CSS and the never-ending load of blog posts on the homepage.</p>
-![Lighthouse report screenshot](<Screenshot 2024-11-16 at 10.05.19 PM.png>)
+<img width="473" alt="Screenshot 2024-11-16 at 10 05 19 PM" src="https://github.com/user-attachments/assets/cf2a85c6-a160-4dd7-8f8e-f121969c55a9">
 The content on the page is not well organized and an excess of repeated information throughout the website, where a link to another part of the website could have been sufficient. When you switch from desktop to mobile the same informaton is shown, when ultimately not all of it was necessary on the mobile version of the site.</p>
 
 <h2> Look and Feel</h2>
