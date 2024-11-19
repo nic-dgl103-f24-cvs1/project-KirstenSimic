@@ -32,12 +32,15 @@ The content on the page is not well organized and an excess of repeated informat
 <p>https://www.blackbarnfarm.com.au/</p>
 <p> I really enjoyed the simple earthy colour palette they used for Black Barn Farm's website. I also like how their updates are organized on the desktop page, though i think less updates showing on the home page would be better. I really like how they had the google map and the grass layered over it was well.</p>
 <img width="473" alt="Screenshot Black Barn Farm" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/screencapture-blackbarnfarm-au.png">
-<h4>The BC Farmer's MArket Trail Website </h4>
+<h4>The BC Farmer's Market Trail Website </h4>
 <p> I think I drew the most inspiration from this website. I really liked the colours pallette they used, it's still earthy colours but a bit more vibrant than Black Barn Farm's. I also really liked how they set up the Follow Us section for mobile. It feels like a much more well organized website in comparison to The Comox Valley's Farmers Market's website. I also like the hero video they have and would like to incorporate a similar video on the desktop version of my webstie</p>
 <img width="473" alt="Screenshot BC Farmers Market Trail" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/screencapture-bcfarmersmarkettrail.png">
 <h3> Colours</h3>
 <p> I found a colour pallete I enjoyed from pinterest that I think ties in well with The Comox Valley's Farmers Market's current colour pallete. I did adjust someo of the colours slightly when checking the contrast between them, but ultimately the same colours have been used in my design</p>
+<img width="300" alt="Carrot Palette" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Carrot.jpeg">
 <h3>Images</h3>
 <p>Luckily, The Comox Valley Farmer's Market has many images to choose from. I don't think I will need to use and stock images due to the surplus of images I have to choose from between their website and their social media pages. Each week on Facebook they post new photos, so there are a lot of options.</p>
+<img width="300" alt="Beef Stew" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/beef stew.jpg"> <img width="300" alt="Apples" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/apples.jpg">  <img width="300" alt="Apples" src="images/tomato.jpg">
 <h3>Fonts</h3>
 <p> The fonts I'm planning to use Chewy for my headers and links and Poppins for my paragraphs and links. I wanted a font that was a bit more playful and fun for the headers, but another one that is easier to read for the paragraphs.</p>
+<img width="300" alt="Chewy Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Chewy.png"> <img width="300" alt="Poppins Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Poppins.png">
