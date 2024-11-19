@@ -49,7 +49,7 @@ The content on the page is not well organized and an excess of repeated informat
 <h3>Homepage Content List</h3>
 <h4>Header</h4>
 <ul>
-<li>Logo<li>
+<li>Logo</li>
 <li>Main Navigation
 <ul><li>Home</li>
 <li>About Us</li>
@@ -69,7 +69,7 @@ The content on the page is not well organized and an excess of repeated informat
 </ul>
 <h4> About Us Section </h4>
 <ul>
-<li> About our Markets heading <li>
+<li> About our Markets heading </li>
 <li> paragraphs describing the market and how it works </li>
 </ul>
 <h4> Content Section</h4>
@@ -84,6 +84,7 @@ The content on the page is not well organized and an excess of repeated informat
 <li> One tile for the most recent blog post with photo and brief description and button to read more </li>
 <li> Second tile the same but for the second most recent blog post </li>
 <li> Anchor button to link to read more blog posts </li>
+</ul>
 <h4> Call to Action</h4>
 <ul>
 <li> Header "Become a Vendor today!"</li>
