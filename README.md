@@ -22,3 +22,20 @@
 <p>The lighthouse report unfortunately was not great as well, with the speed being affected likely due to the excess of unused CSS and the never-ending load of blog posts on the homepage.</p>
 ![Lighthouse report screenshot](<Screenshot 2024-11-16 at 10.05.19 PM.png>)
 The content on the page is not well organized and an excess of repeated information throughout the website, where a link to another part of the website could have been sufficient. When you switch from desktop to mobile the same informaton is shown, when ultimately not all of it was necessary on the mobile version of the site.</p>
+
+<h2> Look and Feel</h2>
+<h3> Mood</h3>
+<p> For the mood of the page I am aiming for something approachable and down-to-earth. Nothing to elaborate, and keeping the colours very earthy and organic looking, while still maintaining appropriate contrast levels.
+<h3>Inspiration </h3>
+<p> I found inspiration in two different websites, the Black Barn Farm's website and the BC Farmer's Market Trail website.</p>
+<h4>Black Barn Farm </h4>
+<p>https://www.blackbarnfarm.com.au/</p>
+<p> I really enjoyed the simple earthy colour palette they used for Black Barn Farm's website. I also like how their updates are organized on the desktop page, though i think less updates showing on the home page would be better. I really like how they had the google map and the grass layered over it was well.
+<h4>The BC Farmer's MArket Trail Website </h4>
+<p> I think I drew the most inspiration from this website. I really liked the colours pallette they used, it's still earthy colours but a bit more vibrant than Black Barn Farm's. I also really liked how they set up the Follow Us section for mobile. It feels like a much more well organized website in comparison to The Comox Valley's Farmers Market's website. I also like the hero video they have and would like to incorporate a similar video on the desktop version of my webstie</p>
+<h3> Colours</h3>
+<p> I found a colour pallete I enjoyed from pinterest that I think ties in well with The Comox Valley's Farmers Market's current colour pallete. I did adjust someo of the colours slightly when checking the contrast between them, but ultimately the same colours have been used in my design</p>
+<h3>Images</h3>
+<p>Luckily, The Comox Valley Farmer's Market has many images to choose from. I don't think I will need to use and stock images due to the surplus of images I have to choose from between their website and their social media pages. Each week on Facebook they post new photos, so there are a lot of options.</p>
+<h3>Fonts</h3>
+<p> The fonts I'm planning to use Chewy for my headers and links and Poppins for my paragraphs and links. I wanted a font that was a bit more playful and fun for the headers, but another one that is easier to read for the paragraphs.</p>
