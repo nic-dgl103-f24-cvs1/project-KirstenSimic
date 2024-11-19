@@ -44,3 +44,55 @@ The content on the page is not well organized and an excess of repeated informat
 <h3>Fonts</h3>
 <p> The fonts I'm planning to use Chewy for my headers and links and Poppins for my paragraphs and links. I wanted a font that was a bit more playful and fun for the headers, but another one that is easier to read for the paragraphs.</p>
 <img width="300" alt="Chewy Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Chewy.png"> <img width="300" alt="Poppins Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Poppins.png">
+
+<h2> Website content</h2>
+<h3>Homepage Content List</h3>
+<h4>Header</h4>
+<ul>
+<li>Logo<li>
+<li>Main Navigation
+<ul><li>Home</li>
+<li>About Us</li>
+<li> Vendors</li>
+<li>Blog</li>
+<li> Market Calendar</li>
+<li> Gallery</li>
+<li> Apply Here</li>
+<li?>Contact Us</li>
+</ul>
+</li>
+</ul>
+<h4>Hero Section</h4>
+<ul>
+<li> Heading "buy local - Comox Valley - eat local Farmers Market" </li>
+<li> anchor button to view our location Map </li>
+</ul>
+<h4> About Us Section </h4>
+<ul>
+<li> About our Markets heading <li>
+<li> paragraphs describing the market and how it works </li>
+</ul>
+<h4> Content Section</h4>
+<ul>
+<li> heading Explore our Markets </li>
+<li>tile with the name of the market, time, and location</li>
+<li>There should be multiple tiles as there are 4 different markets</li>
+</ul>
+<h4> Blog Section</h4>
+<ul>
+<li> A header "Latest From our Blog"</li>
+<li> One tile for the most recent blog post with photo and brief description and button to read more </li>
+<li> Second tile the same but for the second most recent blog post </li>
+<li> Anchor button to link to read more blog posts </li>
+<h4> Call to Action</h4>
+<ul>
+<li> Header "Become a Vendor today!"</li>
+<li> An anchor button to "Apply Here" page </li></ul>
+</h4> Footer Section </h4>
+<ul>
+<li> Contact Us details like address and email </li>
+<li> Map to how to get there </li>
+<li> Land Acknowlegement </li>
+<li> Badges for BC Farmers Market and Comox Valley Chambers </li>
+<li> Social Media Links </li>
+<li> copy right details </li></ul>
