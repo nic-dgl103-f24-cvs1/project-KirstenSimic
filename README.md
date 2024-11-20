@@ -20,7 +20,7 @@
 <p>Unfortunately, there were a few contast issues where the background and text were not visible, for example here where the button is a light green and white text. Had they followed the same colour screen as next to it there would be less issues.</p>
 <img width="997" alt="Screenshot 2024-11-16 at 10 03 06 PM" src="https://github.com/user-attachments/assets/eefa71e8-a7e2-45cd-ba79-42d8354079e9">
 <p>The lighthouse report unfortunately was not great as well, with the speed being affected likely due to the excess of unused CSS and the never-ending load of blog posts on the homepage.</p>
-<img width="473" alt="Screenshot 2024-11-16 at 10 05 19 PM" src="https://github.com/user-attachments/assets/cf2a85c6-a160-4dd7-8f8e-f121969c55a9">
+<img width="473" alt="Screenshot 2024-11-16 at 10 05 19 PM" src="https://github.com/user-attachments/assets/cf2a85c6-a160-4dd7-8f8e-f121969c55a9"><p>
 The content on the page is not well organized and an excess of repeated information throughout the website, where a link to another part of the website could have been sufficient. When you switch from desktop to mobile the same informaton is shown, when ultimately not all of it was necessary on the mobile version of the site.</p>
 
 <h2> Look and Feel</h2>
@@ -116,6 +116,27 @@ The content on the page is not well organized and an excess of repeated informat
 <h4>Our Sponsors </h4>
 <ul><li>header: Ours sponsors</li>
 <li> link to sponsors</li></ul>
+<h4> Contact Us</h4>
+<li> Header: "Stay in touch, join our newsletter" </li>
+<li> Contact us sheet </li></ul>
+<h4>Footer</h4>
+<ul><li> Same info as homepage</li></ul>
+
+<h3>Blog </h3>
+<h4> Header</h4>
+<ul><li> Same as Home page </li></ul>
+<h4> Hero Section</h4>
+<ul>
+<li> background image similar to homepage </li>
+<li>Heading "Farmer's Market Blog" </li></ul>
+<h4> Featured Post Section</h4>
+<ul><li> List the most recent blog post title </li>
+<li> Image to go with blog post </li>
+<li> Start of the blog post content </li>
+<li> Continue reading button to link to full blog article </li></ul>
+<h4>Blog posts</h4>
+<li> Start by ordering some of the blog posts, max 6-10 on the page along with a photo and brief title </li>
+<li> Add a next button to see more posts </li></ul>
 <h4> Contact Us</h4>
 <li> Header: "Stay in touch, join our newsletter" </li>
 <li> Contact us sheet </li></ul>
