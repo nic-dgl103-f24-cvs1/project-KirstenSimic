@@ -100,7 +100,7 @@ The content on the page is not well organized and an excess of repeated informat
 
 <h3>About Us </h3>
 <h4> Header</h4>
-<ul><li> Same as Home page </li>
+<ul><li> Same as Home page </li></ul>
 <h4> Hero Section</h4>
 <ul>
 <li> background image similar to homepage </li>
@@ -112,7 +112,7 @@ The content on the page is not well organized and an excess of repeated informat
 <h4> FAQ</h4>
 <ul><li>Header: FAQ about the Market </li>
 <li> link to FAQ page</li>
-<li> background image</li>
+<li> background image</li></ul>
 <h4>Our Sponsors </h4>
 <ul><li>header: Ours sponsors</li>
 <li> link to sponsors</li></ul>
