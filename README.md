@@ -31,7 +31,7 @@ The content on the page is not well organized and an excess of repeated informat
 <h4>Black Barn Farm </h4>
 <p>https://www.blackbarnfarm.com.au/</p>
 <p> I really enjoyed the simple earthy colour palette they used for Black Barn Farm's website. I also like how their updates are organized on the desktop page, though i think less updates showing on the home page would be better. I really like how they had the google map and the grass layered over it was well.</p>
-<img width="473" alt="Screenshot Black Barn Farm" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/screencapture-blackbarnfarm-au.png">
+<img width="473" alt="Screenshot Black Barn Farm" src="images/screencapture-blackbarnfarm-au.png">
 <h4>The BC Farmer's Market Trail Website </h4>
 <p> I think I drew the most inspiration from this website. I really liked the colours pallette they used, it's still earthy colours but a bit more vibrant than Black Barn Farm's. I also really liked how they set up the Follow Us section for mobile. It feels like a much more well organized website in comparison to The Comox Valley's Farmers Market's website. I also like the hero video they have and would like to incorporate a similar video on the desktop version of my webstie</p>
 <img width="473" alt="Screenshot BC Farmers Market Trail" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/screencapture-bcfarmersmarkettrail.png">
