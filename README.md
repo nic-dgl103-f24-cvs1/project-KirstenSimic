@@ -135,10 +135,10 @@ The content on the page is not well organized and an excess of repeated informat
 <li> Start of the blog post content </li>
 <li> Continue reading button to link to full blog article </li></ul>
 <h4>Blog posts</h4>
-<li> Start by ordering some of the blog posts, max 6-10 on the page along with a photo and brief title </li>
+<ul><li> Start by ordering some of the blog posts, max 6-10 on the page along with a photo and brief title </li>
 <li> Add a next button to see more posts </li></ul>
 <h4> Contact Us</h4>
-<li> Header: "Stay in touch, join our newsletter" </li>
+<ul><li> Header: "Stay in touch, join our newsletter" </li>
 <li> Contact us sheet </li></ul>
 <h4>Footer</h4>
 <ul><li> Same info as homepage</li></ul>
