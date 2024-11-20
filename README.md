@@ -43,7 +43,7 @@ The content on the page is not well organized and an excess of repeated informat
 <img width="auto" alt="Beef Stew" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/beef stew.jpg"> <img width="300" alt="Apples" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/apples.jpg">  <img width="300" alt="Apples" src="images/tomato.jpg">
 <h3>Fonts</h3>
 <p> The fonts I'm planning to use Chewy for my headers and links and Poppins for my paragraphs and links. I wanted a font that was a bit more playful and fun for the headers, but another one that is easier to read for the paragraphs.</p>
-<img width="300" alt="Chewy Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Chewy.png"> <img width="300" alt="Poppins Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Poppins.png">
+<img width="300" alt="Chewy Font" src="images/Chewy.png"> <img width="300" alt="Poppins Font" src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/Poppins.png">
 
 <h2> Website content</h2>
 <h3>Homepage Content List</h3>
