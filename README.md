@@ -97,3 +97,27 @@ The content on the page is not well organized and an excess of repeated informat
 <li> Badges for BC Farmers Market and Comox Valley Chambers </li>
 <li> Social Media Links </li>
 <li> copy right details </li></ul>
+
+<h3>About Us </h3>
+<h4> Header</h4>
+<ul><li> Same as Home page </li>
+<h4> Hero Section</h4>
+<ul>
+<li> background image similar to homepage </li>
+<li>Heading "About Our Market" </li></ul>
+<h4> History Section </h4>
+<ul> <li> Heading: "How we got started"</li>
+<li> Image of the market</li>
+<li> text talking about how the market got started </li></ul>
+<h4> FAQ</h4>
+<ul><li>Header: FAQ about the Market </li>
+<li> link to FAQ page</li>
+<li> background image</li>
+<h4>Our Sponsors </h4>
+<ul><li>header: Ours sponsors</li>
+<li> link to sponsors</li></ul>
+<h4> Contact Us</h4>
+<li> Header: "Stay in touch, join our newsletter" </li>
+<li> Contact us sheet </li></ul>
+<h4>Footer</h4>
+<ul><li> Same info as homepage</li></ul>
