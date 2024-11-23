@@ -239,6 +239,22 @@ iframe,
   margin: 0 0 30px;
 }
 
+/******Call to action*********/
+.calltoaction {
+  background-image: url("images/tomato.jpg");
+  display: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.calltoaction H2 {
+  color: #ffffff;
+  text-shadow: 0px 3px 8px #000000;
+  padding: 30px 10px;
+}
+
 /*******Large Screens********/
 @media only screen and (min-width: 1200px) {
   .content-width {
