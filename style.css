@@ -147,7 +147,6 @@ iframe,
   color: #495c42;
   text-align: left;
   margin-top: 5px;
-  padding-left: 20px;
 }
 .explore_our_markets h3 {
   font-family: "Poppins", serif;
@@ -208,6 +207,38 @@ iframe,
   padding-bottom: 100px;
   margin: 10px 20px;
 }
+
+/******Latest from our blog******/
+.latestblog {
+  text-align: center;
+}
+.latestblog .content-width {
+  width: 356px;
+  margin: 10px 0 40px;
+}
+.latestblog h2 {
+  text-align: left;
+  color: #495c42;
+  margin: 10px 0 10px 10px;
+}
+.recipecard {
+  display: flex;
+  background-color: #a1c39e;
+  margin: 10px 0 0;
+}
+
+.latestblog img {
+  width: 50%;
+}
+.latestblog h3 {
+  padding: 20px 6px 10px;
+}
+.editioncard {
+  display: flex;
+  background-color: #d2e673;
+  margin: 0 0 30px;
+}
+
 /*******Large Screens********/
 @media only screen and (min-width: 1200px) {
   .content-width {
