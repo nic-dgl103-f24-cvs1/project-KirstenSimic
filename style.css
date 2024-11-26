@@ -11,7 +11,7 @@ main a {
   font-family: "Chewy", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 h2 {
@@ -51,19 +51,21 @@ header {
 .headercontainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .show-items {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-
+nav {
+  text-align: right;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 30px 30px 0;
   display: none;
 }
 
@@ -71,10 +73,14 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.4rem;
-  padding: 0;
+  padding: 10px;
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-i {
+header i {
   color: #d2e673;
   padding-top: 10px;
   padding-right: 30px;
@@ -85,12 +91,12 @@ section.hero {
   background-image: url("images/herobackground.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   text-align: center;
   padding: 56px 0;
 }
 
 h1 {
+  display: absolute;
   font-family: "Overlock", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -109,7 +115,7 @@ ul {
   margin: 0;
 }
 
-iframe,
+.hero iframe,
 .video-overlay {
   display: none;
 }
@@ -208,14 +214,16 @@ iframe,
   margin: 10px 20px;
 }
 
+.fallwintercards {
+  margin-bottom: 40px;
+}
 /******Latest from our blog******/
 .latestblog {
   text-align: center;
+  width: 334px;
+  margin: auto;
 }
-.latestblog .content-width {
-  width: 356px;
-  margin: 10px 0 40px;
-}
+
 .latestblog h2 {
   text-align: left;
   color: #495c42;
@@ -225,18 +233,19 @@ iframe,
   display: flex;
   background-color: #a1c39e;
   margin: 10px 0 0;
+  padding-bottom: 0px;
 }
 
 .latestblog img {
   width: 50%;
 }
 .latestblog h3 {
-  padding: 20px 6px 10px;
+  padding: 5px 6px 10px;
 }
 .editioncard {
   display: flex;
   background-color: #d2e673;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
 }
 
 /******Call to action*********/
@@ -255,36 +264,196 @@ iframe,
   padding: 30px 10px;
 }
 
+/****Footer****/
+.footercontainer {
+  width: 330px;
+  border-bottom: 1px solid #d2e673;
+  margin: auto;
+}
+
+footer {
+  color: white;
+  background-color: #495c42;
+  text-align: center;
+}
+footer h2 {
+  color: #d2e673;
+  text-shadow: 0px 3px 8px #000000;
+}
+
+footer iframe {
+  width: 300px;
+}
+
+address {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/**************************************About Us Page*********************************************/
+/****** About Hero ********/
+.abouthero {
+  background-image: url("images/aboutusherosml.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 56px 0;
+}
+/****** How we got started *************/
+.started {
+  background-color: #e3d8b3;
+  padding-bottom: 30px;
+}
+
+.started h2 {
+  color: #354431;
+  padding-top: 15px;
+}
+.started p {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #354431;
+  padding: 10px;
+  border-radius: 20px;
+}
+/****** More info about markets *****/
+.aboutlinks {
+  text-align: center;
+  width: 334px;
+  margin: auto;
+}
+
+.aboutlinks h2 {
+  color: #354431;
+}
+
+.aboutlinks a {
+  margin: 20px 0;
+}
+.aboutlinks nav {
+  margin-left: 20px;
+}
+.aboutlinks ul {
+  display: block;
+  text-align: center;
+}
+
+.aboutlinks li {
+  padding: 0px 0 50px;
+  background-color: #e3d8b3;
+  margin: 10px 0;
+}
+.aboutlinks img {
+  width: 280px;
+  margin-bottom: 20px;
+}
+/**********Contact Form**********/
+.contactform {
+  background-color: #e3d8b3;
+  color: #354431;
+  padding: 20px 10px 30px;
+}
+.contactform p {
+  text-align: center;
+}
+.form {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+#email {
+  margin-left: 38px;
+}
+#submit {
+  margin: 20px 0;
+  font-size: 1.7rem;
+}
 /*******Large Screens********/
 @media only screen and (min-width: 1200px) {
+  /******universal*****/
   .content-width {
     width: 1130px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 5rem;
   }
 
+  p {
+    font-size: 1.75rem;
+  }
+
+  main a {
+    font-size: 2.5rem;
+  }
+  /*******Header********/
   header {
     background-color: transparent;
+    text-align: center;
   }
+  .headercontainer {
+    width: 1130px;
+    margin: auto;
+  }
+  .colorheader {
+    background-color: #495c42;
+  }
+  header img {
+    padding-left: 40px;
+  }
+  nav .toggle {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 80px;
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+  }
+  nav a {
+    margin: 50px 10px 0;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+  }
+  /*******Hero**********/
   section.hero {
     background-image: none;
   }
-
-  .video-container,
-  .video-overlay {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+  .abouthero {
+    background-image: url("images/aboutushero.png");
+    width: 100%;
   }
-
+  .hero .content-width {
+    height: 80vh;
+  }
+  .abouthero h1 {
+    padding: 100px 0;
+  }
   h1 {
-    padding-top: 300px;
+    padding-top: 250px;
     text-align: center;
+    font-size: 7rem;
   }
-  iframe,
-  .video-overlay {
+  span {
+    font-size: 3rem;
+  }
+
+  .hero a {
+    margin-bottom: 500px;
+  }
+  .hero iframe {
     display: block;
     pointer-events: none;
-    width: 105vw;
-    height: 116.5vh;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -293,8 +462,15 @@ iframe,
   }
   .video-overlay {
     display: block;
+    position: absolute;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.4;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    z-index: -1;
   }
 
   @media (min-aspect-ratio: 16/9) {
@@ -307,7 +483,112 @@ iframe,
       width: 177.78vh;
     }
   }
+
+  /******About our market**********/
   .aboutourmarket {
     display: inline;
+  }
+  .about_our_market p {
+    margin: 30px 200px;
+  }
+
+  /*********Explore our Markets************/
+  .explore_our_markets {
+    justify-content: center;
+  }
+
+  .explore_our_markets h2 {
+    text-align: center;
+  }
+  .explore_our_markets h3 {
+    font-size: 2rem;
+    margin: 30px 80px 100px;
+  }
+  .summermarketcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .fallwintercards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .explore_our_markets p {
+    margin: 30px;
+  }
+  .SummerMarket {
+    width: 50%;
+  }
+  .CumberlandMarket {
+    width: 50%;
+  }
+  .FallMarket {
+    width: 50%;
+  }
+  .WinterMarket {
+    width: 50%;
+  }
+
+  /*******Latest Blog *******/
+  .latestblog {
+    width: 1130px;
+    margin: auto;
+  }
+  .latestblog h2 {
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .recipecard {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 30px;
+    padding-bottom: 50px;
+  }
+  .latestblog {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+  }
+  .editioncard {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 0;
+    height: 70vh;
+  }
+
+  .recipecard img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .editioncard img {
+    width: 100%;
+  }
+
+  /*******Call to Action*********/
+  .calltoaction {
+    padding: 100px 10px;
+  }
+  /********Footer********/
+  .footercontainer {
+    width: 1130px;
+    margin: auto;
+  }
+  footer iframe {
+    width: 800px;
+  }
+  address {
+    font-size: 1.75rem;
+  }
+
+  footer img {
+    width: 250px;
+    padding-bottom: 20px;
   }
 }

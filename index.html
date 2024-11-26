@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home Page</title>
+    <link rel=”stylesheet”
+    href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,8 +31,8 @@
             ><i class="fa fa-bars fa-2x" aria-hidden="true"></i
           ></a>
           <ul id="nav-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUS.html">About Us</a></li>
             <li><a href="#">Vendors</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Market Calendar</a></li>
@@ -44,23 +46,22 @@
     <main>
       <section class="hero">
         <div class="content-width">
-          <div class="video-container">
-            <iframe
-              src="https://www.youtube.com/embed/qHPuSIHFMfo?si=RcEG6YO5j0-2EDxD&amp;controls=0&amp;start=4&autoplay=1&mute=1&playsinline=1&playlist=qHPuSIHFMfo&loop=1"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <div class="video-overlay"></div>
-            <h1>
-              <span>buy local</span> - Comox Valley - <span>eat local</span>
-              <br />
-              Farmers Market
-            </h1>
-            <a class="button" href="#">View our Location Map</a>
-          </div>
+          <h1>
+            <span>buy local</span> - Comox Valley - <span>eat local</span>
+            <br />
+            Farmers Market
+          </h1>
+          <a class="button" href="#">View our Location Map</a>
+
+          <iframe
+            src="https://www.youtube.com/embed/qHPuSIHFMfo?si=RcEG6YO5j0-2EDxD&amp;controls=0&amp;start=4&autoplay=1&mute=1&playsinline=1&playlist=qHPuSIHFMfo&loop=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div class="video-overlay"></div>
         </div>
       </section>
       <section class="about_our_market">
@@ -85,37 +86,37 @@
       <section class="explore_our_markets">
         <div class="content-width">
           <h2>Explore our Markets</h2>
-          <div class="SummerMarket">
-            <h3>Courtenay Summer Market</h3>
-            <p>9 AM -1 PM April 13, 2024 to October 12, 2024</p>
-            <p>4830 Headquarters Rd, Courtenay</p>
+          <div class="summermarketcards">
+            <div class="SummerMarket">
+              <h3>Courtenay Summer Market</h3>
+              <p>9 AM -1 PM April 13, 2024 to October 12, 2024</p>
+              <p>4830 Headquarters Rd, Courtenay</p>
+            </div>
+            <div class="CumberlandMarket">
+              <h3>Cumberland Sunday Market</h3>
+              <p>June 2, 2024 - October 13, 2024</p>
+              <p>2747 Dunsmuir Ave, Cumberland</p>
+            </div>
           </div>
-          <div class="CumberlandMarket">
-            <h3>Cumberland Sunday Market</h3>
-            <p>June 2, 2024 - October 13, 2024</p>
-            <p>2747 Dunsmuir Ave, Cumberland</p>
-          </div>
-          <div class="FallMarket">
-            <h3>Courtenay Fall Market</h3>
-            <p>9 AM- 1 PM October 19, 2024 to December 21, 2024</p>
-            <p>360 Cliffe Ave, Courtenay</p>
-          </div>
-          <div class="WinterMarket">
-            <h3>Courtenay Winter Market</h3>
-            <p>9 AM- 1 PM January 11, 2025 - April 5, 2025</p>
-            <p>360 Cliffe Ave, Courtenay</p>
+          <div class="fallwintercards">
+            <div class="FallMarket">
+              <h3>Courtenay Fall Market</h3>
+              <p>9 AM- 1 PM October 19, 2024 to December 21, 2024</p>
+              <p>360 Cliffe Ave, Courtenay</p>
+            </div>
+            <div class="WinterMarket">
+              <h3>Courtenay Winter Market</h3>
+              <p>9 AM- 1 PM January 11, 2025 - April 5, 2025</p>
+              <p>360 Cliffe Ave, Courtenay</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="latestblog">
-        <div class="content-width">
-          <h2>Latest from our Blog</h2>
+        <h2>Latest from our Blog</h2>
+        <div class="cards">
           <div class="recipecard">
-            <img
-              src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/readmeimages/beef stew.jpg"
-              width="200"
-              alt="beef stew"
-            />
+            <img src="images/stewlg.png" width="200" alt="beef stew" />
             <div class="recipetext">
               <h3>FoodFest - Back to Basics November 9th, 2024 Recipes</h3>
               <a href="#"> Read Blog Post </a>
@@ -126,23 +127,55 @@
               <h3>FoodFest - Back to Basics Fall 2024 Edition</h3>
               <a href="#"> Read Blog Post </a>
             </div>
-            <img
-              src="/Users/kirstensimic/Documents/GitHub/project-KirstenSimic/images/chef.jpg"
-              width="200"
-              alt="chef"
-            />
+            <img src="images/cheflg.png" width="200" alt="chef" />
           </div>
-          <a href="#"> More Blog Posts </a>
         </div>
+        <a href="#"> More Blog Posts </a>
       </section>
       <section class="calltoaction">
         <h2>Become a Vendor Today!</h2>
         <a href="#">Apply Here </a>
       </section>
       <footer>
-        <h2>Contact Us</h2>
-        <address>info@cvfm.ca Box 3301, Courtenay, BC, V9N 5N5</address>
-        <h2>How to get here</h2>
+        <div class="footercontainer">
+          <h2>Contact Us</h2>
+          <address>info@cvfm.ca Box 3301, Courtenay, BC, V9N 5N5</address>
+          <h2>How to get here</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.223227689417!2d-125.00571932256032!3d49.70659904064171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881475679665ad%3A0x103a94eaef758f28!2sComox%20Valley%20Farmers&#39;%20Market%20(Saturday)!5e0!3m2!1sen!2sca!4v1732399564488!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <p>
+            We respectfully acknowledge that the land we gather on is on the
+            Unceded traditional territory of the K'ómoks First Nation, the
+            traditional keepers of this land.
+          </p>
+          <img
+            src="images/BCAFM-LOGO_member.png"
+            alt="BCFM Member Logo"
+            width="100"
+          />
+          <img
+            src="images/Proud-Member-25-Years-V2-small.png"
+            alt="Comox Valley Chambers Member Logo"
+            width="100"
+          />
+          <br />
+          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="copyrightcontainer">
+          <p>&copy;2024 Comox Valley Farmers Market | All right reserved</p>
+        </div>
       </footer>
     </main>
     <script>
