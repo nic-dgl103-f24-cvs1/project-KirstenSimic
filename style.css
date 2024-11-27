@@ -145,7 +145,7 @@ ul {
 /****Explore our Markets****/
 
 .explore_our_markets {
-  background-color: #e3d8b3;
+  background-color: #f3f0e3;
   padding: 10px 0;
 }
 
@@ -302,7 +302,7 @@ address {
 }
 /****** How we got started *************/
 .started {
-  background-color: #e3d8b3;
+  background-color: #f3f0e3;
   padding-bottom: 30px;
 }
 
@@ -340,7 +340,7 @@ address {
 
 .aboutlinks li {
   padding: 0px 0 50px;
-  background-color: #e3d8b3;
+  background-color: #a1c39e;
   margin: 10px 0;
 }
 .aboutlinks img {
@@ -349,7 +349,7 @@ address {
 }
 /**********Contact Form**********/
 .contactform {
-  background-color: #e3d8b3;
+  background-color: #f3f0e3;
   color: #354431;
   padding: 20px 10px 30px;
 }
@@ -369,6 +369,54 @@ address {
 #submit {
   margin: 20px 0;
   font-size: 1.7rem;
+}
+
+/************************************* Blog *************************************************/
+.bloghero {
+  background-image: url("images/sunflowers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 56px 0;
+  margin-bottom: 10px;
+}
+
+.largepost {
+  background-color: #a1c39e;
+  width: 334px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.largepost img {
+  width: 100%;
+}
+.lgblogtext {
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.smallpostcontainer {
+  background-color: #a1c39e;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+.smallpostcontainer img {
+  width: 50%;
+}
+.smallposts {
+  width: 334px;
+  margin: auto;
+  text-align: center;
+}
+.smlblogtext {
+  background-color: #ffffff;
+  margin: 10px;
+}
+.fullpostcontainer {
+  display: none;
 }
 /*******Large Screens********/
 @media only screen and (min-width: 1200px) {
@@ -575,6 +623,7 @@ address {
   .calltoaction {
     padding: 100px 10px;
   }
+
   /********Footer********/
   .footercontainer {
     width: 1130px;
@@ -590,5 +639,12 @@ address {
   footer img {
     width: 250px;
     padding-bottom: 20px;
+  }
+
+  /************************************Blog********************************/
+  .largepost {
+    width: 1130px;
+    display: flex;
+    flex-direction: row;
   }
 }
