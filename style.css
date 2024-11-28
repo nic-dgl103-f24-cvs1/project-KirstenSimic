@@ -596,12 +596,11 @@ tr:hover {
   h1 {
     padding-top: 200px;
     text-align: center;
-    font-size: 12rem;
+    font-size: 6rem;
   }
   .hero h1 {
     padding-top: 200px;
     color: #ffffff;
-    font-size: 6rem;
   }
   span {
     font-size: 3rem;
