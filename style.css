@@ -420,7 +420,14 @@ tr:hover {
   margin: auto;
 }
 #email {
-  margin-left: 38px;
+  margin-left: 58px;
+}
+
+#lname {
+  margin-left: 15px;
+}
+#fname {
+  margin-left: 15px;
 }
 #submit {
   margin: 20px 0;
@@ -509,6 +516,11 @@ tr:hover {
 
   main a {
     font-size: 2.5rem;
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
+  }
+  main a:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   /*******Header********/
   header {
@@ -803,5 +815,10 @@ tr:hover {
   .contactform {
     background-image: url("images/green flowers.png");
     background-size: contain;
+  }
+
+  .contactform p {
+    font-weight: 700;
+    font-size: 2.5rem;
   }
 }
