@@ -48,6 +48,9 @@ header {
   background-color: #495c42;
 }
 
+.headercontainer img {
+  margin-bottom: 20px;
+}
 .headercontainer {
   display: flex;
   flex-direction: row;
@@ -88,13 +91,16 @@ header i {
 /*Hero*/
 
 section.hero {
-  background-image: url("images/herobackground.png");
+  background-image: url("images/homehero.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   padding: 56px 0;
 }
 
+.hero img {
+  display: none;
+}
 h1 {
   display: absolute;
   font-family: "Overlock", sans-serif;
@@ -103,7 +109,7 @@ h1 {
   text-align: center;
   font-size: 2.75rem;
   margin-bottom: 50px;
-  color: #ffffff;
+  color: #495c42;
   text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -293,12 +299,14 @@ address {
 /**************************************About Us Page*********************************************/
 /****** About Hero ********/
 .abouthero {
-  background-image: url("images/aboutusherosml.png");
+  background-image: url("images/farm silhouette.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   text-align: center;
   padding: 56px 0;
+}
+.abouthero h1 {
+  color: #495c42;
 }
 /****** How we got started *************/
 .started {
@@ -311,10 +319,19 @@ address {
   padding-top: 15px;
 }
 .started p {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   color: #354431;
   padding: 10px;
   border-radius: 20px;
+}
+.startedheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.startedheading img {
+  width: 100px;
+  top: 400px;
 }
 /****** More info about markets *****/
 .aboutlinks {
@@ -340,18 +357,54 @@ address {
 
 .aboutlinks li {
   padding: 0px 0 50px;
-  background-color: #a1c39e;
+  background-color: #d2e673;
   margin: 10px 0;
 }
 .aboutlinks img {
   width: 280px;
   margin-bottom: 20px;
 }
+
+/*************Pricing****************/
+.pricing {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #264653;
+  margin: auto;
+  width: 334px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: left;
+  background-color: #a1c39e;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+th {
+  background-color: #f3f0e3;
+  color: 354431;
+}
+tr:nth-child(even) {
+  background-color: #d2e673;
+}
+tr:hover {
+  background-color: #495c42;
+  color: white;
+}
 /**********Contact Form**********/
 .contactform {
   background-color: #f3f0e3;
   color: #354431;
   padding: 20px 10px 30px;
+  text-align: center;
 }
 .contactform p {
   text-align: center;
@@ -362,6 +415,9 @@ address {
   font-weight: 400;
   font-style: normal;
   font-size: 1.7rem;
+  background-color: #f3f0e3;
+  width: 310px;
+  margin: auto;
 }
 #email {
   margin-left: 38px;
@@ -373,20 +429,29 @@ address {
 
 /************************************* Blog *************************************************/
 .bloghero {
-  background-image: url("images/sunflowers.jpg");
+  background-image: url("images/farmSilhouette2.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 56px 0;
-  margin-bottom: 10px;
+  padding: 10px 0;
 }
 
+.bloghero h1 {
+  margin-top: 70px;
+}
 .largepost {
-  background-color: #a1c39e;
+  background-color: #d2e673;
   width: 334px;
   margin: auto;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+.largepost p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 20px 10px;
 }
 
 .largepost img {
@@ -395,10 +460,11 @@ address {
 .lgblogtext {
   background-color: #ffffff;
   margin: 10px;
+  padding-bottom: 30px;
 }
 
 .smallpostcontainer {
-  background-color: #a1c39e;
+  background-color: #d2e673;
   margin: 10px 0;
   display: flex;
   flex-direction: row;
@@ -414,9 +480,17 @@ address {
 .smlblogtext {
   background-color: #ffffff;
   margin: 10px;
+  width: 100%;
 }
 .fullpostcontainer {
   display: none;
+}
+
+.next-page {
+  padding: 20px 0;
+}
+.smallposts h2 {
+  font-size: 1.7rem;
 }
 /*******Large Screens********/
 @media only screen and (min-width: 1200px) {
@@ -476,19 +550,33 @@ address {
     background-image: none;
   }
   .abouthero {
-    background-image: url("images/aboutushero.png");
     width: 100%;
+    padding: 100px 0 150px;
   }
   .hero .content-width {
     height: 80vh;
   }
-  .abouthero h1 {
-    padding: 100px 0;
+
+  .hero img {
+    display: block;
+    pointer-events: none;
+    width: 100vw;
+    height: 190vh;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
   }
+
   h1 {
-    padding-top: 250px;
+    padding-top: 200px;
     text-align: center;
-    font-size: 7rem;
+    font-size: 12rem;
+  }
+  .hero h1 {
+    padding-top: 50px;
+    color: #ffffff;
   }
   span {
     font-size: 3rem;
@@ -596,6 +684,7 @@ address {
     flex-direction: column;
     width: 100%;
     margin: 0px 30px;
+    height: 700px;
     padding-bottom: 50px;
   }
   .latestblog {
@@ -607,7 +696,7 @@ address {
     width: 100%;
     padding-bottom: 50px;
     margin-top: 0;
-    height: 70vh;
+    height: 700px;
   }
 
   .recipecard img {
@@ -617,6 +706,10 @@ address {
 
   .editioncard img {
     width: 100%;
+    height: 75%;
+  }
+  .editiontext {
+    height: 30%;
   }
 
   /*******Call to Action*********/
@@ -642,9 +735,73 @@ address {
   }
 
   /************************************Blog********************************/
+  .bloghero {
+    background-image: url("images/farmSilhouette3.png");
+    padding-bottom: 220px;
+    margin-bottom: 20px;
+  }
+
+  .bloghero h1 {
+    padding-bottom: 30px;
+  }
+  .largepost p {
+    margin-bottom: 50px;
+  }
+  .lgblogtext {
+    padding: 10px;
+  }
   .largepost {
     width: 1130px;
     display: flex;
     flex-direction: row;
+  }
+  .largepost img {
+    width: 60%;
+  }
+  .smallposts {
+    width: 1130px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .smallposts h2 {
+    font-size: 2.3rem;
+    margin: 30px 10px;
+  }
+  .smallpostcontainer {
+    width: 48%;
+    margin: 10px;
+  }
+  .next-page {
+    margin-left: 43%;
+    margin-bottom: 50px;
+  }
+  /*********************************About Us*******************************/
+  .abouthero h1 {
+    padding: 150px 0 100px;
+  }
+
+  .pricing {
+    width: 1130px;
+  }
+  .aboutlinks {
+    width: 1130px;
+  }
+  .aboutlinks ul {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  .aboutlinks li {
+    margin: 10px 20px;
+    width: 300px;
+  }
+  .aboutlinks img {
+    width: 100%;
+  }
+  .contactform {
+    background-image: url("images/green flowers.png");
+    background-size: contain;
   }
 }

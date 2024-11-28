@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>About Us</title>
     <link rel=”stylesheet”
     href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
     <link rel="stylesheet" href="style.css" />
@@ -34,7 +34,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="AboutUS.html">About Us</a></li>
             <li><a href="#">Vendors</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="#">Market Calendar</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Apply Here</a></li>
@@ -51,7 +51,16 @@
       </section>
       <section class="started">
         <div class="content-width">
-          <h2>How We Got Started</h2>
+          <div class="startedheading">
+            <img src="images/limeflowers.png" alt="lime flowers" width="50px" />
+            <h2>How We Got Started</h2>
+            <img src="images/sageflowers.png" alt="sage flowers" width="50px" />
+          </div>
+          <img
+            src="images/aboutusherosml.png"
+            alt="group of people"
+            width="100%"
+          />
           <p>
             How We Got Started The Comox Valley Farmers’ Market Association in a
             not for profit society that has been bringing local food to local
@@ -98,6 +107,51 @@
           </p>
         </div>
       </section>
+      <section class="pricing">
+        <h2>Pricing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity Available</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Apples</td>
+              <td>$2.00 / lb</td>
+              <td>50 lbs</td>
+              <td>Fresh, locally grown apples.</td>
+            </tr>
+            <tr>
+              <td>Carrots</td>
+              <td>$1.50 / bunch</td>
+              <td>30 bunches</td>
+              <td>Organic carrots with greens.</td>
+            </tr>
+            <tr>
+              <td>Honey</td>
+              <td>$10.00 / jar</td>
+              <td>20 jars</td>
+              <td>Raw, unfiltered local honey.</td>
+            </tr>
+            <tr>
+              <td>Eggs</td>
+              <td>$5.00 / dozen</td>
+              <td>40 dozen</td>
+              <td>Free-range, farm-fresh eggs.</td>
+            </tr>
+            <tr>
+              <td>Tomatoes</td>
+              <td>$3.00 / lb</td>
+              <td>25 lbs</td>
+              <td>Heirloom tomatoes, perfect for salads.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
       <section class="aboutlinks">
         <h2>Want more info about our Markets?</h2>
         <nav>
@@ -108,6 +162,7 @@
             </li>
             <li>
               <img
+                class="historic"
                 src="images/comox-valley-farmers-market-historic-picture-2.jpg"
                 alt="historic comox valley farmers market"
                 width="300px"
@@ -127,24 +182,27 @@
       </section>
       <section class="contactform">
         <div class="content-width">
-        <h2>Stay in touch</h2>
-        <p>Join our newsletter</p>
-        <form class="form" action="#" method="get">
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname" /><br /><br />
-          <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname" /><br /><br />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" /><br />
-          <input type="submit" id="submit" value="Submit" />
-        </form>
-    </div>
+          <div class="contactcontainer">
+            <h2>Stay in touch</h2>
+            <p>Join our newsletter</p>
+            <form class="form" action="#" method="get">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" /><br /><br />
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname" /><br /><br />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" /><br />
+              <input type="submit" id="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
       </section>
-    </section>
-    <section class="calltoaction">
-      <h2>Become a Vendor Today!</h2>
-      <a href="#">Apply Here </a>
-    </section>
+
+      <section class="calltoaction">
+        <h2>Become a Vendor Today!</h2>
+        <a href="#">Apply Here </a>
+      </section>
+
       <footer>
         <div class="footercontainer">
           <h2>Contact Us</h2>
@@ -184,6 +242,13 @@
         </div>
         <div class="copyrightcontainer">
           <p>&copy;2024 Comox Valley Farmers Market | All right reserved</p>
+          <br />
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner.
+          </p>
         </div>
       </footer>
     </main>
