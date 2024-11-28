@@ -391,7 +391,7 @@ td {
 }
 th {
   background-color: #f3f0e3;
-  color: 354431;
+  color: #354431;
 }
 tr:nth-child(even) {
   background-color: #d2e673;
