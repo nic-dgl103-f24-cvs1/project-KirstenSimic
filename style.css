@@ -438,7 +438,7 @@ tr:hover {
 
 /************************************* Blog *************************************************/
 .bloghero {
-  background-image: url("images/farmSilhouette2.png");
+  background-image: url("images/farmSilhouette3.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -759,7 +759,8 @@ tr:hover {
 
   /************************************Blog********************************/
   .bloghero {
-    background-image: url("images/farmSilhouette3.png");
+    background-image: url("images/farmSilhouette2.png");
+
     padding-bottom: 220px;
     margin-bottom: 20px;
   }
