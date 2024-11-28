@@ -114,6 +114,7 @@ h1 {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 span {
   font-size: 1.5rem;
 }
@@ -598,8 +599,9 @@ tr:hover {
     font-size: 12rem;
   }
   .hero h1 {
-    padding-top: 50px;
+    padding-top: 200px;
     color: #ffffff;
+    font-size: 6rem;
   }
   span {
     font-size: 3rem;
