@@ -8,10 +8,10 @@ main a {
   font-size: 12px;
   color: #ffffff;
   text-decoration: none;
-  font-family: "Chewy", serif;
-  font-weight: 400;
+  font-family: "Poppins", serif;
+  font-weight: 600;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 h2 {
@@ -72,7 +72,7 @@ nav ul {
   display: none;
 }
 
-nav a {
+header a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.4rem;
@@ -335,8 +335,7 @@ address {
   top: 400px;
 }
 .started .content-width > img {
-  width: 1000px;
-  margin: 10px 50px;
+  width: 100%;
 }
 /****** More info about markets *****/
 .aboutlinks {
@@ -486,9 +485,6 @@ tr:hover {
   width: 50%;
 }
 
-.smallpostcontainer a {
-  font-size: 1.7rem;
-}
 .smallposts {
   width: 334px;
   margin: auto;
@@ -530,7 +526,7 @@ tr:hover {
   }
 
   main a {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     transition: transform ease 0.5s, box-shadow ease 0.5s;
   }
   main a:hover {
@@ -564,7 +560,7 @@ tr:hover {
     flex-wrap: nowrap;
     padding-bottom: 0;
   }
-  nav a {
+  header a {
     margin: 50px 10px 0;
     text-align: center;
     font-family: "Poppins", serif;
@@ -794,7 +790,7 @@ tr:hover {
   }
   .smallposts h2 {
     font-size: 2.3rem;
-    margin: 30px 10px;
+    margin: 20px 10px;
   }
   .smallpostcontainer {
     width: 48%;
@@ -811,9 +807,11 @@ tr:hover {
 
   .pricing {
     width: 1130px;
+    margin: auto;
   }
   .aboutlinks {
     width: 1130px;
+    margin: auto;
   }
   .aboutlinks ul {
     display: flex;
@@ -821,8 +819,8 @@ tr:hover {
     margin: 10px;
   }
   .aboutlinks li {
-    margin: 10px 20px;
-    width: 300px;
+    margin: 10px 5px;
+    width: 350px;
   }
   .aboutlinks img {
     width: 100%;
@@ -837,8 +835,7 @@ tr:hover {
     font-size: 2.5rem;
   }
   .aboutlinks a {
-    font-size: 1.6rem;
     padding: 5px 10px;
-    margin: 5px;
+    margin: 3px;
   }
 }
