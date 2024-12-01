@@ -102,7 +102,6 @@ section.hero {
   display: none;
 }
 h1 {
-  display: absolute;
   font-family: "Overlock", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -259,7 +258,7 @@ ul {
 /******Call to action*********/
 .calltoaction {
   background-image: url("images/tomato.jpg");
-  display: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
@@ -334,6 +333,10 @@ address {
 .startedheading img {
   width: 100px;
   top: 400px;
+}
+.started .content-width > img {
+  width: 1000px;
+  margin: 10px 50px;
 }
 /****** More info about markets *****/
 .aboutlinks {
