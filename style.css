@@ -131,6 +131,7 @@ ul {
 .about_our_market {
   background-image: url("images/apples.jpg");
   background-size: cover;
+  background-color: #495c42;
   margin: 10px 0;
   text-align: center;
 }
@@ -263,6 +264,7 @@ ul {
 .calltoaction {
   background-image: url("images/tomato.jpg");
   background-size: cover;
+  background-color: #c1570b;
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
@@ -576,6 +578,7 @@ tr:hover {
   section.hero {
     background-image: none;
   }
+
   .abouthero {
     width: 100%;
     padding: 100px 0 150px;
