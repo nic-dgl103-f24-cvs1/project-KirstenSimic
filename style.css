@@ -308,7 +308,7 @@ address {
 .abouthero {
   background-image: url("images/farm silhouette.png");
   background-size: cover;
-  background-color: #495c42;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   text-align: center;
   padding: 56px 0;
@@ -449,7 +449,7 @@ tr:hover {
 .bloghero {
   background-image: url("images/farmSilhouette3.png");
   background-size: cover;
-  background-color: #495c42;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   text-align: center;
   padding: 10px 0;
