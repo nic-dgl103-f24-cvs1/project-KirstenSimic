@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Overlock:wght@700;900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="headercontainer">
+        <img src="images/white_logo.png" alt="nav logo" width="150" />
+        <nav>
+          <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars fa-2x" aria-hidden="true"></i
+          ></a>
+          <ul id="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUS.html">About Us</a></li>
+            <li><a href="#">Vendors</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Market Calendar</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Apply Here</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="content-width">
+          <h1>
+            <span>buy local</span> - Comox Valley - <span>eat local</span>
+            <br />
+            Farmers Market
+          </h1>
+          <a class="button" href="#">View our Location Map</a>
+
+          <iframe
+            src="https://www.youtube.com/embed/qHPuSIHFMfo?si=RcEG6YO5j0-2EDxD&amp;controls=0&amp;start=4&autoplay=1&mute=1&playsinline=1&playlist=qHPuSIHFMfo&loop=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div class="video-overlay"></div>
+        </div>
+        <img
+          src="images/white_flowers.png"
+          alt="white silhouette of flowers"
+          width="200"
+        />
+      </section>
+      <section class="about_our_market">
+        <div class="content-width">
+          <h2>About Our Markets</h2>
+          <p>
+            We have 2 markets to serve you, a year-round market on Saturday in
+            Courtenay and a seasonal market in Cumberland on Sunday. All of our
+            markets have live music, seating areas, market money, accessible
+            parking and plenty of parking. Note that for health and safety
+            reasons dogs (and pets), except service dogs, are not permitted at
+            the market.
+          </p>
+          <p>
+            Looking for a vendor? Need a bag? Need Market Tokens? Lost
+            something? Have a suggestion? Please let us know by chatting with us
+            in person at the Market Information Tent or on our website or social
+            media channels.
+          </p>
+          <a href="AboutUS.html"> More About Us </a>
+        </div>
+      </section>
+      <section class="explore_our_markets">
+        <div class="content-width">
+          <h2>Explore our Markets</h2>
+          <div class="summermarketcards">
+            <div class="SummerMarket">
+              <h3>Courtenay Summer Market</h3>
+              <p>9 AM -1 PM April 13, 2024 to October 12, 2024</p>
+              <p>4830 Headquarters Rd, Courtenay</p>
+            </div>
+            <div class="CumberlandMarket">
+              <h3>Cumberland Sunday Market</h3>
+              <p>June 2, 2024 - October 13, 2024</p>
+              <p>2747 Dunsmuir Ave, Cumberland</p>
+            </div>
+          </div>
+          <div class="fallwintercards">
+            <div class="FallMarket">
+              <h3>Courtenay Fall Market</h3>
+              <p>9 AM- 1 PM October 19, 2024 to December 21, 2024</p>
+              <p>360 Cliffe Ave, Courtenay</p>
+            </div>
+            <div class="WinterMarket">
+              <h3>Courtenay Winter Market</h3>
+              <p>9 AM- 1 PM January 11, 2025 - April 5, 2025</p>
+              <p>360 Cliffe Ave, Courtenay</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="latestblog">
+        <h2>Latest from our Blog</h2>
+        <div class="cards">
+          <div class="recipecard">
+            <img src="images/stewlg.png" width="200" alt="beef stew" />
+            <div class="recipetext">
+              <h3>FoodFest - Back to Basics November 9th, 2024 Recipes</h3>
+              <a href="#"> Read Blog Post </a>
+            </div>
+          </div>
+          <div class="editioncard">
+            <div class="editiontext">
+              <h3>FoodFest - Back to Basics Fall 2024 Edition</h3>
+              <a href="#"> Read Blog Post </a>
+            </div>
+            <img src="images/cheflg.png" width="200" alt="chef" />
+          </div>
+        </div>
+        <a href="blog.html"> More Blog Posts </a>
+      </section>
+      <section class="calltoaction">
+        <h2>Become a Vendor Today!</h2>
+        <a href="#">Apply Here </a>
+      </section>
+      <footer>
+        <div class="footercontainer">
+          <h2>Contact Us</h2>
+          <address>info@cvfm.ca Box 3301, Courtenay, BC, V9N 5N5</address>
+          <h2>How to get here</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.223227689417!2d-125.00571932256032!3d49.70659904064171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881475679665ad%3A0x103a94eaef758f28!2sComox%20Valley%20Farmers&#39;%20Market%20(Saturday)!5e0!3m2!1sen!2sca!4v1732399564488!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <p>
+            We respectfully acknowledge that the land we gather on is on the
+            Unceded traditional territory of the K'ómoks First Nation, the
+            traditional keepers of this land.
+          </p>
+          <img
+            src="images/bcafm-logo_member.png"
+            alt="BCFM Member Logo"
+            width="100"
+          />
+          <img
+            src="images/proud-member-25-years-v2-small.png"
+            alt="Comox Valley Chambers Member Logo"
+            width="100"
+          />
+          <br />
+          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="copyrightcontainer">
+          <p>&copy;2024 Comox Valley Farmers Market | All right reserved</p>
+          <br />
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner.
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>

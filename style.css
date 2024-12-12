@@ -1,0 +1,850 @@
+/***Universal***/
+
+main a {
+  background-color: #c1570b;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.15rem;
+}
+
+h2 {
+  font-family: "Chewy", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.15rem;
+}
+.content-width {
+  width: 334px;
+  margin: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Header*/
+
+header {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #495c42;
+}
+
+.headercontainer img {
+  margin-bottom: 20px;
+}
+.headercontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+nav {
+  text-align: right;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 30px 30px 0;
+  display: none;
+}
+
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.7rem;
+  padding: 10px;
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header i {
+  color: #d2e673;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+/*Hero*/
+
+section.hero {
+  background-image: url("images/homehero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 56px 0;
+}
+
+.hero img {
+  display: none;
+}
+h1 {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.75rem;
+  margin-bottom: 50px;
+  color: #495c42;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+span {
+  font-size: 1.5rem;
+}
+ul {
+  margin: 0;
+}
+
+.hero iframe,
+.video-overlay {
+  display: none;
+}
+
+/*About our market*/
+
+.about_our_market {
+  background-image: url("images/apples.jpg");
+  background-size: cover;
+  background-color: #495c42;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.about_our_market h2 {
+  color: #ffffff;
+  text-shadow: 0px 3px 8px #000000;
+}
+.about_our_market p {
+  text-align: left;
+}
+/***** where i got the text shadow from https://html-css-js.com/css/generator/text-shadow/ ****/
+.about_our_market p {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 20px;
+}
+.about_our_market .content-width {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+/****Explore our Markets****/
+
+.explore_our_markets {
+  background-color: #f3f0e3;
+  padding: 10px 0;
+}
+
+.explore_our_markets h2 {
+  color: #495c42;
+  text-align: left;
+  margin-top: 5px;
+}
+.explore_our_markets h3 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px 50px 40px;
+}
+.explore_our_markets p {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  margin: 10px 50px 20px;
+  padding: 5px;
+}
+
+.SummerMarket {
+  background-image: url("images/beets.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin: 10px 20px;
+}
+
+.CumberlandMarket {
+  background-image: url("images/cherries.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin: 10px 20px;
+}
+
+.FallMarket {
+  background-image: url("images/breadloafs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin: 10px 20px;
+}
+
+.WinterMarket {
+  background-image: url("images/wreath.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin: 10px 20px;
+}
+
+.fallwintercards {
+  margin-bottom: 40px;
+}
+/******Latest from our blog******/
+.latestblog {
+  text-align: center;
+  width: 334px;
+  margin: auto;
+}
+
+.latestblog h2 {
+  text-align: left;
+  color: #495c42;
+  margin: 10px 0 10px 10px;
+}
+.recipecard {
+  display: flex;
+  background-color: #a1c39e;
+  margin: 10px 0 0;
+  padding-bottom: 0px;
+}
+
+.latestblog img {
+  width: 50%;
+}
+.latestblog h3 {
+  padding: 5px 6px 10px;
+}
+.editioncard {
+  display: flex;
+  background-color: #d2e673;
+  margin: 0 0 20px;
+}
+
+/******Call to action*********/
+.calltoaction {
+  background-image: url("images/tomato.jpg");
+  background-size: cover;
+  background-color: #c1570b;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.calltoaction H2 {
+  color: #ffffff;
+  text-shadow: 0px 3px 8px #000000;
+  padding: 30px 10px;
+}
+
+/****Footer****/
+.footercontainer {
+  width: 330px;
+  border-bottom: 1px solid #d2e673;
+  margin: auto;
+}
+
+footer {
+  color: white;
+  background-color: #495c42;
+  text-align: center;
+}
+footer h2 {
+  color: #d2e673;
+  text-shadow: 0px 3px 8px #000000;
+}
+
+footer iframe {
+  width: 300px;
+}
+
+address {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/**************************************About Us Page*********************************************/
+/****** About Hero ********/
+.abouthero {
+  background-image: url("images/farm silhouette.png");
+  background-size: cover;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 56px 0;
+}
+.abouthero h1 {
+  color: #495c42;
+}
+/****** How we got started *************/
+.started {
+  background-color: #f3f0e3;
+  padding-bottom: 30px;
+}
+
+.started h2 {
+  color: #354431;
+  padding-top: 15px;
+}
+.started p {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #354431;
+  padding: 10px;
+  border-radius: 20px;
+}
+.startedheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.startedheading img {
+  width: 100px;
+  top: 400px;
+}
+.started .content-width > img {
+  width: 100%;
+}
+/****** More info about markets *****/
+.aboutlinks {
+  text-align: center;
+  width: 334px;
+  margin: auto;
+}
+
+.aboutlinks h2 {
+  color: #354431;
+}
+
+.aboutlinks a {
+  margin: 20px 0;
+}
+.aboutlinks nav {
+  margin-left: 20px;
+}
+.aboutlinks ul {
+  display: block;
+  text-align: center;
+}
+
+.aboutlinks li {
+  padding: 0px 0 50px;
+  background-color: #d2e673;
+  margin: 10px 0;
+}
+.aboutlinks img {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+/*************Pricing****************/
+.pricing {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #264653;
+  margin: auto;
+  width: 334px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: left;
+  background-color: #a1c39e;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+th {
+  background-color: #f3f0e3;
+  color: #354431;
+}
+tr:nth-child(even) {
+  background-color: #d2e673;
+}
+tr:hover {
+  background-color: #495c42;
+  color: white;
+}
+/**********Contact Form**********/
+.contactform {
+  background-color: #f3f0e3;
+  color: #354431;
+  padding: 20px 10px 30px;
+  text-align: center;
+}
+.contactform p {
+  text-align: center;
+}
+.form {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #f3f0e3;
+  width: 310px;
+  margin: auto;
+}
+#email {
+  margin-left: 58px;
+}
+
+#lname {
+  margin-left: 15px;
+}
+#fname {
+  margin-left: 15px;
+}
+#submit {
+  margin: 20px 0;
+  font-size: 1.7rem;
+}
+
+/************************************* Blog *************************************************/
+.bloghero {
+  background-image: url("images/farmSilhouette3.png");
+  background-size: cover;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.bloghero h1 {
+  margin-top: 70px;
+}
+.largepost {
+  background-color: #d2e673;
+  width: 334px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+.largepost p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 20px 10px;
+}
+
+.largepost img {
+  width: 100%;
+}
+.lgblogtext {
+  background-color: #ffffff;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+.smallpostcontainer {
+  background-color: #d2e673;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  height: 230px;
+}
+.smallpostcontainer img {
+  width: 50%;
+}
+
+.smallposts {
+  width: 334px;
+  margin: auto;
+  text-align: center;
+}
+.smlblogtext {
+  background-color: #ffffff;
+  margin: 10px;
+  width: 100%;
+  align-content: center;
+}
+.smallpostcontainer img {
+  width: 50%;
+  object-fit: cover;
+}
+.fullpostcontainer {
+  display: none;
+}
+
+.next-page {
+  padding: 20px 0;
+}
+.smallposts h2 {
+  font-size: 1.7rem;
+}
+/*******Large Screens********/
+@media only screen and (min-width: 1200px) {
+  /******universal*****/
+  .content-width {
+    width: 1130px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  main a {
+    font-size: 1.8rem;
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
+  }
+  main a:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  /*******Header********/
+  header {
+    background-color: transparent;
+    text-align: center;
+  }
+  .headercontainer {
+    width: 1130px;
+    margin: auto;
+  }
+  .colorheader {
+    background-color: #495c42;
+  }
+  header img {
+    padding-left: 40px;
+  }
+  nav .toggle {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 80px;
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+  }
+  header a {
+    margin: 50px 10px 0;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+  }
+  /*******Hero**********/
+  section.hero {
+    background-image: none;
+  }
+
+  .abouthero {
+    width: 100%;
+    padding: 100px 0 150px;
+  }
+  .hero .content-width {
+    height: 80vh;
+  }
+
+  .hero img {
+    display: block;
+    pointer-events: none;
+    width: 100vw;
+    height: 190vh;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  h1 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 6rem;
+  }
+  .hero h1 {
+    padding-top: 10%;
+    color: #ffffff;
+  }
+  span {
+    font-size: 3rem;
+  }
+
+  .hero a {
+    margin-bottom: 500px;
+  }
+  .hero iframe {
+    display: block;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .video-overlay {
+    display: block;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  @media (min-aspect-ratio: 16/9) {
+    .video-container iframe {
+      height: 56.25vw;
+    }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    .video-container iframe {
+      width: 177.78vh;
+    }
+  }
+  /**** link to how I figured out how to make a youtube video a background https://alvarotrigo.com/blog/how-to-create-a-youtube-video-background-with-css/ *****/
+  /******About our market**********/
+  .aboutourmarket {
+    display: inline;
+  }
+  .about_our_market p {
+    margin: 30px 200px;
+  }
+
+  /*********Explore our Markets************/
+  .explore_our_markets {
+    justify-content: center;
+  }
+
+  .explore_our_markets h2 {
+    text-align: center;
+  }
+  .explore_our_markets h3 {
+    font-size: 2rem;
+    margin: 30px 80px 100px;
+  }
+  .summermarketcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .fallwintercards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .explore_our_markets p {
+    margin: 30px;
+  }
+  .SummerMarket {
+    width: 50%;
+  }
+  .CumberlandMarket {
+    width: 50%;
+  }
+  .FallMarket {
+    width: 50%;
+  }
+  .WinterMarket {
+    width: 50%;
+  }
+
+  /*******Latest Blog *******/
+  .latestblog {
+    width: 1130px;
+    margin: auto;
+  }
+  .latestblog h2 {
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .recipecard {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 30px;
+    height: 700px;
+    padding-bottom: 50px;
+  }
+  .latestblog {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+  }
+  .editioncard {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 0;
+    height: 700px;
+  }
+
+  .recipecard img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .editioncard img {
+    width: 100%;
+    height: 75%;
+  }
+  .editiontext {
+    height: 30%;
+  }
+
+  /*******Call to Action*********/
+  .calltoaction {
+    padding: 100px 10px;
+  }
+
+  /********Footer********/
+  .footercontainer {
+    width: 1130px;
+    margin: auto;
+  }
+  footer iframe {
+    width: 800px;
+  }
+  address {
+    font-size: 1.75rem;
+  }
+
+  footer img {
+    width: 250px;
+    padding-bottom: 20px;
+  }
+
+  /************************************Blog********************************/
+  .bloghero {
+    background-image: url("images/farmSilhouette2.png");
+
+    padding-bottom: 220px;
+    margin-bottom: 20px;
+  }
+
+  .bloghero h1 {
+    padding-bottom: 30px;
+  }
+  .largepost p {
+    margin-bottom: 50px;
+  }
+  .lgblogtext {
+    padding: 10px;
+  }
+  .largepost {
+    width: 1130px;
+    display: flex;
+    flex-direction: row;
+  }
+  .largepost img {
+    width: 60%;
+  }
+  .smallposts {
+    width: 1130px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .smallposts h2 {
+    font-size: 2.3rem;
+    margin: 20px 10px;
+  }
+  .smallpostcontainer {
+    width: 48%;
+    margin: 10px;
+  }
+  .next-page {
+    margin-left: 43%;
+    margin-bottom: 50px;
+  }
+  /*********************************About Us*******************************/
+  .abouthero h1 {
+    padding: 150px 0 100px;
+  }
+
+  .pricing {
+    width: 1130px;
+    margin: auto;
+  }
+  .aboutlinks {
+    width: 1130px;
+    margin: auto;
+  }
+  .aboutlinks ul {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  .aboutlinks li {
+    margin: 10px 5px;
+    width: 350px;
+  }
+  .aboutlinks img {
+    width: 100%;
+  }
+  .contactform {
+    background-image: url("images/green flowers.png");
+    background-size: contain;
+  }
+
+  .contactform p {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .aboutlinks a {
+    padding: 5px 10px;
+    margin: 3px;
+  }
+}
